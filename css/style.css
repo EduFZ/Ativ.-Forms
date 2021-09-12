@@ -38,18 +38,33 @@ fieldset {
 }
 
 .nome {
-    width: 45%;
+    width: 50%;
     height: auto;
     display: inline;
+    margin-left: 1.8vw;
 }
 
 .localizacao {
-    width: 45%;
+    width: 50%;
     height: auto;
     display: inline;
+    margin-left: 1.8vw;
 }
 
 .horario {
+    clear: both;
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.visitacao {
+    width: 45%;
+    height: auto;
+    margin-top: 5.1vw;
+}
+
+.sobre {
     clear: both;
 }
 
