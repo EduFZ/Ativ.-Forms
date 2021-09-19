@@ -43,7 +43,7 @@ legend {
 
 .foto {
     width: 45%;
-    height: 15vw;
+    height: 22.1vw;
     display: inline;
     float: left;
 }
@@ -53,7 +53,7 @@ legend {
     height: 5vw;
     display: inline;
     margin-left: 1.8vw;
-    margin-top: 2vw;
+    
 }
 
 .nome input {
@@ -64,17 +64,38 @@ legend {
 
 .localizacao {
     width: 50%;
-    height: 5vw;
-    display: inline;
-    margin-left: 1.8vw;
-    margin-top: 1vw;
+    height: auto;
+    /*margin-left: 1.8vw;
+    display: inline;*/
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 1vw;
 }
 
-.localizacao input{
-    width: 74%;
-    margin-left: 1%;
-    margin-top: 2%;
+.estado {
+    margin: 2% 0;
 }
+.slestado {
+    margin-left: 1.7vw;
+}
+
+.locinput {
+    width: 50%;
+    margin: 2%;
+}
+
+.binput {margin-left: 1.97vw;}
+.cinput {
+    width: 20%;
+    margin-left: 2.8vw;
+}
+.ninput {
+    width: 10%;
+    margin-left: 1vw;
+}
+
+
 
 
 .visitacao {

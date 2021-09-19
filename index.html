@@ -37,8 +37,63 @@
                 <legend>Localizão</legend>
                 <p>
                     <label for="localizacao">Endereço:</label>
-                    <input type="text" id="localizacao" placeholder="Digite o endereço" required>
+                    <input class="locinput" type="text" id="localizacao" placeholder="Ex: Rua Fulano de Tal, Bairo Tal, SP" required>
                 </p>
+
+                <p>
+                    <label class="bairro" for="bairro">Bairro:</label>
+                    <input class="bairro locinput binput" type="text" id="bairro" placeholder="Ex: Bairro de Tal">
+                </p>
+
+                <p>
+                    <label class="estado" for="estado">Estado:</label>
+                    <select class="estado slestado" name="estado" id="estado">
+                        <option value="selecione" selected disabled>Selecione o Estado</option>
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="se">Sergipe</option>
+                        <option value="to">Tocantins</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label class="cep" for="cep">CEP:</label>
+                    <input class="cep locinput cinput" type="number" placeholder="Ex: 11223-000" min="10000000">
+                </p>
+
+                <p>
+                    <label class="numero" for="numero">Número:</label>
+                    <input class="numero locinput ninput" type="number" id="numero" min="0">
+                </p>
+
+                <p>
+                    <input class="sninput" type="checkbox" name="sn" id="sn" >
+                    <label class="sn" for="sn">Sem Número</label>
+                </p>
+
             </fieldset>
 
             <fieldset class="horario">
